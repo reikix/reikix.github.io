@@ -1,31 +1,37 @@
 
-/* Base style stuff */
+
+/* BASE - Base tyles, Variables, Mixins, etc. */
+
 
 @import 'base/_variables.scss';
 @import 'base/_mixins.scss';
 @import 'base/_base.scss';
 
-/* Modules (btw, still need to change it to match UNAD's fonts */
+/* MODULES - Individual site components */
 
 @import 'modules/_typography.scss';
 @import 'modules/_buttons.scss';
 
+
+
 /* LAYOUTS - Page layout styles */
 
-/* >>>>>>>>>>> Header >>>>>>>>*/
+
+
+/*>>>>>>>>>>>>>>>>>> Header >>>>>>>>>>>>>>>>>>>>*/
 @import 'layouts/_header.scss';
 
-/*>>>>>>>>>>>>>>>>> navigation bar >>>>>>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>> navigation bar >>>>>>>>>>>>>>>>>>>>*/
 @import 'layouts/_nav.scss';
 
-/*>>>>>>>>>>> "all" section >>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>> "All" section >>>>>>>>>>>>>>>>>>*/
 @import 'modules/_sections.scss';
 
-/*>>>>>>>>>>>>>> Footer >>>>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>> Footer >>>>>>>>>>>>>>>>>>>>*/
 @import 'layouts/_footer.scss';
 
-/*>>>>>>>>>>>>> Colors (copied from Carousel Gaming, one of my clients from work temporarily) >>>>>>>>>>>*/
+/*>>>>>>>>>>>>>>>>>> theme colors >>>>>>>>>>>>>>>>>>>>*/
 @import 'modules/_theme-color.scss';
 
-/*>>>>>>>>>>>> Adding responsiveness >>>>>>>>>>>>*/
-/*@import 'modules/_responsive.scss';*/
+/*>>>>>>>>>>>>>>>>>> Responsive stuff >>>>>>>>>>>>>>>>>>>>*/
+@import 'modules/_responsive.scss';
