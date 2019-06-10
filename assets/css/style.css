@@ -2168,7 +2168,8 @@ img {
   }
 
   #mu-menu .navbar-header .navbar-brand {
-    padding-top: 10px;
+    padding-top: 1px;
+    margin-top: -7px
   }
 
   #mu-search-icon {
