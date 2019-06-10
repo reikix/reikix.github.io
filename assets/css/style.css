@@ -5,7 +5,7 @@
 #HEADER SECTION
 #NAVBAR SECTION
 #SLIDER SECTION
-#SERVICE SECTION
+#CATEGORIES SECTION
 #ABOUT US SECTION
 #COUNTER SECTION
 #FEATURES SECTION
@@ -401,21 +401,21 @@ img {
 }
 
 /*==================
- SERVICE SECTION
+ CATEGORIES SECTION
 ====================*/
-#mu-service {
+#mu-category {
   display: inline;
   float: left;
   margin-top: -80px;
   width: 100%;
 }
-#mu-service .mu-service-area {
+#mu-category .mu-category-area {
   display: inline;
   float: left;
   width: 100%;
 }
-#mu-service .mu-service-area .mu-service-single {
-  background-color: #01bafd;
+#mu-category .mu-category-area .mu-category-single {
+  background-color: #F47920;
   color: #fff;
   display: inline;
   float: left;
@@ -423,19 +423,19 @@ img {
   text-align: center;
   width: 33.33%;
 }
-#mu-service .mu-service-area .mu-service-single:nth-child(2) {
-  background-color: #2ecc71;
+#mu-category .mu-category-area .mu-category-single:nth-child(2) {
+  background-color: #005883;
 }
-#mu-service .mu-service-area .mu-service-single:nth-child(3) {
-  background-color: #45a0de;
+#mu-category .mu-category-area .mu-category-single:nth-child(3) {
+  background-color: #F0B429;
 }
-#mu-service .mu-service-area .mu-service-single span {
+#mu-category .mu-category-area .mu-category-single span {
   font-size: 30px;
 }
-#mu-service .mu-service-area .mu-service-single h3 {
+#mu-category .mu-category-area .mu-category-single h3 {
   font-size: 25px;
 }
-#mu-service .mu-service-area .mu-service-single p {
+#mu-category .mu-category-area .mu-category-single p {
   font-weight: lighter;
 }
 
@@ -2056,7 +2056,7 @@ img {
     line-height: 1.5;
   }
 
-  #mu-service .mu-service-area .mu-service-single h3 {
+  #mu-category .mu-category-area .mu-category-single h3 {
     font-size: 20px;
   }
 
@@ -2297,15 +2297,15 @@ img {
     letter-spacing: 0;
   }
 
-  #mu-service {
+  #mu-category {
     margin-top: 30px;
   }
 
-  #mu-service .mu-service-area .mu-service-single {
+  #mu-category .mu-category-area .mu-category-single {
     padding: 20px 5px;
   }
 
-  #mu-service .mu-service-area .mu-service-single h3 {
+  #mu-category .mu-category-area .mu-category-single h3 {
     font-size: 16px;
   }
 
@@ -2365,12 +2365,12 @@ img {
     height: 270px;
   }
 
-  #mu-service .mu-service-area .mu-service-single {
+  #mu-category .mu-category-area .mu-category-single {
     padding: 20px 15px;
     width: 100%;
   }
 
-  #mu-service .mu-service-area .mu-service-single h3 {
+  #mu-category .mu-category-area .mu-category-single h3 {
     font-size: 18px;
   }
 
